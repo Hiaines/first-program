@@ -1,0 +1,18 @@
+weak =["saturday","sunday", "monday", "tuesday","wednesday", "thursday","friday"]
+print("First five days  :")
+print(weak[1:6])
+print("***")
+print("Weak end :")
+print(weak[0],weak[6])
+print("weak end (2nd methode)")
+print(weak[-1],weak[-7])
+print("***")
+print("last day of the weak :")
+print("1st méthode : by typing : weak[6]")
+print(weak[6])
+print("2nd methode : by typing :weak[-1]")
+print(weak[-1])
+print("*****")
+print("reversal of days in one command")
+print(weak[-7],weak[-6],weak[-5],weak[-4],weak[-3],weak[-2],weak[-1])
+
